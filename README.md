@@ -1,0 +1,2 @@
+# HINT
+show hint mine
