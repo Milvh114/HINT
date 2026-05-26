@@ -1,0 +1,72 @@
+// <: one-to-many. E.g: users.id < posts.user_id
+// >: many-to-one. E.g: posts.user_id > users.id
+// -: one-to-one. E.g: users.id - user_infos.user_id
+// <>: many-to-many. E.g: authors.id <> books.id
+// Ref: characteristics.id <> cars.id // many-to-one
+
+
+
+enum status {
+  active [note: '...']
+  deactive
+}
+
+
+
+
+Table users {
+  id integer [primary key]
+  username varchar(50) 
+  email varchar(50) [not null]
+  phone varchar(50) [not null, unique]
+  dob date
+  photo_url nvarchar(100)
+  hash_pass nvarchar(100)
+  // salt nvarchar(100)
+  status status
+  is_admin boolean
+  created_at timestamp
+  update_at timestamp
+}
+
+
+
+
+Table books {
+  id integer [primary key]
+  court_name varchar
+  price decimal(10, 2)
+  cours_photo nvarchar(100)
+  // discount integer
+  // order_fast boolean //cho phép đặt xe ngay lập tức không cần chủ xe phê duyệt. (Phù hợp với chủ xe không thường xuyên online hoặc kiểm tra điện thoại)
+  // token nvarchar(50)
+  status nchar
+  created_at timestamp
+  update_at timestamp
+}
+
+Table feedback {
+  id integer [primary key]
+  content nvarchar(100)
+  created_at timestamp
+  update_at timestamp
+  // court_id integer [ref: > courts.id]
+  // user_id integer [ref: > users.id]
+}
+
+
+
+
+
+
+Table Notification {
+  id integer [primary key]
+  content decimal(10, 2)
+  // discount decimal(10, 2)
+  created_at timestamp
+  update_at timestamp
+  // user_id integer [ref: > users.id]
+}
+
+
+

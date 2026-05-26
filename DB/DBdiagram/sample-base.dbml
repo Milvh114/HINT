@@ -1,0 +1,66 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+
+// <: one-to-many. E.g: users.id < posts.user_id
+// >: many-to-one. E.g: posts.user_id > users.id
+// -: one-to-one. E.g: users.id - user_infos.user_id
+// <>: many-to-many. E.g: authors.id <> books.id
+// Ref: characteristics.id <> cars.id // many-to-one
+
+
+
+
+// enum
+enum gender {
+  female [note: '...']
+  male
+  gay
+}
+
+enum roles {
+  ADMIN [note: 'admin']
+  US  [note: 'user']
+  GS  [note: 'guest']
+}
+
+
+
+Table users {
+  id integer(50) [primary key, increment]
+  username varchar(50)
+  email varchar(50) [not null] 
+  phone varchar(50) [not null, unique]
+  dob date
+  gender gender
+  photo_url varchar(100) 
+  hash_pass nvarchar(100)
+  salt nvarchar(100)
+  status status
+  roles roles
+  created_at timestamp [default: `now()`]
+  update_at timestamp [default: `now()`]
+  delete_at timestamp [default: 'null', null]
+}
+
+
+
+
+Table notification {
+  id integer [primary key]
+  content decimal(10, 2)
+  // discount decimal(10, 2)
+  created_at timestamp
+  update_at timestamp
+  delete_at timestamp
+  // user_id integer [ref: > users.id]
+}
+
+
+// Ref: characteristics.id <> cars.id // many-to-one
+
+
+
+
+
+

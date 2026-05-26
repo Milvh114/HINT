@@ -1,0 +1,362 @@
+/* 
+note: when small screen 
+    delete <display: inline-flex;> in row-connect-body-header-start and ow-connect-body-header-end
+        delete <width: 0px;> in column-inline-body-header-start and .column-inline-body-header-end
+            change <border-bottom-left-radius:15%> to 0%
+*/
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////// 1.BODY HEADER ////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+header {
+    /* margin: 0px; */
+    border: 2px solid black;
+    /* i use border to watch content area */
+    /* padding: 24px; */
+    padding-top: 10px;
+    padding-bottom: 34px;
+    /* height: 10px; */
+    position: relative;
+    /* overflow: visible; */
+    background-color: #ce18a1;
+}
+
+/* @media (max-width: 8px) {
+    header {
+        padding: 0;
+    }
+} */
+
+
+.row-body-header-open {
+    margin: 0px;
+    /* margin-left: 0px; */
+    /* border: 10px solid black; */
+    padding: 0px;
+    /* padding-right: 0px; */
+    height: 10px;
+    /* min-height: 0px; */
+    /* overflow: visible; */
+    position: fixed;
+    inset-inline-start: 160px;
+    inset-inline-end: 160px;
+    /* inset-block-start: 10px; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: #22c55e;
+}
+
+
+.column-body-header-close {
+    /* padding: 0px; */
+    /* height: 58px; */
+    /* width: 98px; */
+    /* position: relative; */
+    position: fixed;
+    /* inset-inline-start: 16px; */
+    /* inset-block-start: 30px; */
+    inset-inline-start: 10px;
+    inset-inline-end: 150px;
+    /* left: 1px; */
+    display: inline-flex;
+    background-color: blueviolet;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////header open shape/////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*
+    body header START-> body header MIDDLE -> body header END
+    \----------------
+*/
+
+/*//////////// 
+                    header open START
+///////////////*/
+.column-inline-body-header-start {
+    border: 0px solid black;
+    /* i use border to watch content area */
+    /* style 1 */
+    /* border-top-left-radius: 50%; */
+    /* border-bottom-left-radius: 50%; */
+    /* style 2 */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 10%;
+    /*///////////////////////////*/
+
+    padding: 40px;
+    /* height: 0px; */
+    width: 0px;
+    height: 0px;
+    /* min-height: 0px; */
+    /* min-width: 0px; */
+    /* float: left; */
+    background-color: #f97316;
+}
+
+/*//////////// 
+                    connect header: connect between header open START and header open MIDDLE
+///////////////*/
+
+/* .row-connect-body-header-start {
+    display: inline-flex;
+    flex: 1;
+    background-color: #edc7ab;
+} */
+
+/*////////////
+                    header open MIDDLE
+///////////////*/
+
+.column-inline-body-header-mid {
+    border: 0px solid black;
+    /* i use border to watch content area */
+    padding: 40px;
+    height: 0px;
+    width: 0px;
+    /* min-height: 0px; */
+    min-width: 0px;
+    flex: 1;
+    /* float: left; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #f97316;
+}
+
+/*//////////// 
+                    connect header: connect between header open START and header open MIDDLE
+///////////////*/
+
+/* .row-connect-body-header-end {
+    display: inline-flex;
+    flex: 1;
+    margin-left: 250px;
+    background-color: #edc7ab;
+} */
+
+/*////////////
+                    header open END
+///////////////*/
+
+.column-inline-body-header-end {
+    border: 0px solid black;
+    /* i use border to watch content area */
+
+    /* style 1 */
+    /* border-top-left-radius: 50%; */
+    /* border-bottom-left-radius: 50%; */
+    /* style 2 */
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 10%;
+    /*///////////////////////////*/
+    padding: 40px;
+    /* height: 30px; */
+    /* min-height: 0px; */
+    /* min-width: 0px; */
+    width: 0px;
+    height: 0px;
+    text-align: center;
+
+    background-color: #f97316;
+}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////// header close shape - header close style/////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////// style 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*
+
+    this have circle shape and egg shape
+    style 1.1: circle shape
+    style 1.2: lemon shape
+
+*/
+
+.column-a-circle {
+    border: 0px solid black;
+    /* style 1.1 */
+    /* border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%; */
+    /* style 1.2 */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 15%;
+
+    /*///////////////////////////*/
+
+
+    padding: 30px;
+    height: 30px;
+    width: 0px;
+    /* min-height: 100px; */
+    min-width: 30px;
+    text-align: center;
+
+    background-color: #f97316;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////// style 2: START circle -> MIDDLE circle -> END circle ////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*  START circle -> MIDDLE circle -> END circle 
+
+    this have circle shape and egg shape
+    style 2.1: pill shape
+    style 2.2: trapezium shape
+    style 2.3: 
+
+*/
+
+
+/*//////////// 
+                START circle
+///////////////*/
+.column-body-header-close-start {
+    border: 0px solid black;
+    /* i use border to watch content area */
+    /* style 2.1 */
+    /* border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%; */
+    /* style 2.2 */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 15%;
+    /*///////////////////////////*/
+    /* position: absolute;
+    inset-inline-start: 150px; */
+
+    padding: 30px;
+    padding-right: 18px;
+    text-align: center;
+    background-color: #fefc7f;
+}
+
+
+/*//////////// 
+                    MIDDLE circle
+///////////////*/
+.column-body-header-close-mid-logo {
+    border: 0px solid black;
+    /* i use border to watch content area */
+    padding: 1px;
+    /* i use padding to watch content area */
+    /* flex:1; */
+    height: 58px;
+    /* visibility: hidden; */
+    /* style 2.1 && 2.2 */
+    /*///////////////////////////*/
+    /* position: absolute;
+    inset-inline-start: 198px; */
+    background-color: #96b7f0;
+}
+
+.column-body-header-close-mid {
+    border: 0px solid black;
+    /* i use border to watch content area */
+    padding: 0px;
+    /* i use padding to watch content area */
+    width: 0px;
+    /* position: absolute;
+    inset-inline-start: 425px; */
+    visibility: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #96b7f0;
+}
+
+
+
+
+
+/*//////////// 
+
+                    END circle 
+///////////////*/
+.column-body-header-close-end {
+    border: 0px solid black;
+    /* i use border to watch content area */
+
+    /* style 2.1 */
+    /* border-top-right-radius: 50%; */
+    /* border-bottom-right-radius: 50%; */
+
+    /* style 2.2 */
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 15%;
+    /*///////////////////////////*/
+    /* position: absolute;
+    inset-inline-start: 200px; */
+
+    padding: 30px;
+    padding-left: 18px;
+    text-align: center;
+
+    background-color: #fefc7f;
+}
+
+
+
+
+
+
+/*//////////////////////////////////////// style 3 ////////////////////////////////////////*/
+
+.column-a-circle-1 {
+    border: 10px solid black;
+    /* i use border to watch content area */
+    /* style 1.1 */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    /* style 1.2 */
+    /* border-top-left-radius: 50%;
+    border-bottom-left-radius: 15%; 
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 15%; */
+    /*///////////////////////////*/
+
+
+    padding: 35px;
+    height: 30px;
+    width: 0px;
+    /* min-height: 100px; */
+    min-width: 30px;
+    text-align: center;
+
+    background-color: #f97316;
+}
+
+
+
+
+
+
+/* .eyeshape{
+    border: 10px solid black;
+    border-bottom-left-radius: 60%;
+    border-top-left-radius: 60%;
+    padding-right: 30px;
+    height: 10px;
+    text-align: center;
+    background-color: #f97316;
+} */

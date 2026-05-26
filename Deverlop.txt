@@ -1,0 +1,17 @@
+Deverlop:
+x2 man hinh
+tu dong
+online
+di dong
+
+//cach dat ten web
+1.đặt tên dễ hiểu dễ nhớ đơn giản (VD: web du lịch(holiday)- nên đặt: trip, travel, tour, holiday, booking)
+2.đặt tên theo từ địa phương hay cho khách quốc tế độ phổ biến hay dùng của từ đó( trip(từ mang tính địa phương phù hợp nhóm nhỏ như giới trẻ ), travel(phổ biến nhiều người dùng), tour(từ phổ biến nhiều người dùng nhất khi nhắc đến du lịch))
+3-details: đặt tên theo khu vực máy chủ (có thể sẽ cần 2 tên miền 2 máy chủ 1 trang web - rẻ hơn hoặc 2 trang web  2 tên miền ??problem)
+backup
+1. đặt tên theo địa điểm nổi tiếng (VD: sàn thương mại điẹn tử amazon - đặt tên amazon)
+
+
+
+
+
