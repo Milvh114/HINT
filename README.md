@@ -4,3 +4,4 @@ go find and dig!!! good luck, have a nice trip/day/year
 SHOW HINT?
 ?If u got problem
 donate coffee if u success ;)
+we need model(internet architechture) P-2-P for chatgpt for optimize and low temprature
