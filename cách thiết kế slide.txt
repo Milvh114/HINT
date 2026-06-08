@@ -1,0 +1,6 @@
+cách thiết kế slide
+Phần nội dung:
+	cơ bản: ảnh và chữ
+	bố cục: vẽ khuôn ảnh chiếm phần nào chữ chiếm phần nào
+Phần màu sắc, hiệu ứng:
+	???

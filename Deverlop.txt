@@ -11,6 +11,13 @@ di dong
 backup
 1. đặt tên theo địa điểm nổi tiếng (VD: sàn thương mại điẹn tử amazon - đặt tên amazon)
 
+//human vs bot
+bot marketing
+ngon ngu robot noi ngan hon ngon ngu con muc
+bot = an code => mat code = cut
+
+trong OOP: mọi vật có id đều là một object - cư dân tối cổ :)
+
 
 
 
