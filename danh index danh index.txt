@@ -1,0 +1,5 @@
+danh index:
+danh index la hanh dong sap xep cac bang theo thu tu chu cai cua cot minh danh index -> query nhanh hon
+index can unique?
+index khong can unique?
+

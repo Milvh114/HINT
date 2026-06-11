@@ -5,3 +5,5 @@ SHOW HINT?
 ?If u got problem
 donate coffee if u success ;)
 we need model(internet architechture) P-2-P for chatgpt for optimize and low temprature
+
+https://mcw88vi.club/af/5rZ1qeHK/advfdsvnpu?utm_campaign=paidmed

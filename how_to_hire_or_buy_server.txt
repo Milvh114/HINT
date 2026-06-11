@@ -1,0 +1,10 @@
+cach thue may chu:
+đối tượng khách hàng tập trung ở khu vực nào
+từ đối tượng khách hàng phải xem khác khu vực lân cận đối tượng khách hàng
+xem máy chủ gửi thông tin nhận thông tin có toàn vẹn dữ liệu (phá sóng-> sai dữ liệu- cần khoảng cách bước sóng lớn để tránh bị phá sóng) và họ có cloud(vệ tinh-an toàn, khó bảo trì, kinh khí cầu-kém an toàn, dễ bảo trì, tàu hỏa dưới lòng đất - an toàn, nóng, dễ bảo trì, tàu ngầm - an toàn, mát, dễ bảo trì, giới hạn đường truyền...ufo: có thể chèn thêm quảng cáo vào nếu đầu tư ) để hỗ trợ cho việc vận chuyển dữ liệu không hay máy chủ trung gian cố định
+họ dùng loại phương thức giao tiếp nào: tần số hay ánh sáng hay âm thanh ... (nôm na:thứ gì có thể gửi tín hiệu bật và tắt)
+nếu thuê cloud thì nó sẽ xuất phát từ đâu đến đâu hoặc là quỹ đạo của nó
+tính toán khoản cách khi 2 máy chủ giao tiếp với nhau 
+phạm vi bán kính đảm bảo truyền dữ liệu ổn định
+phạm vi vượt khỏi bán kính 
+máy chủ trung gian chỉ cần đảm bảo nhiệm vụ gửi tín hiệu nên có thể là bất cứ phương tiện gia thông nào, còn lưu data đường truyền sẽ đến chậm hơn một tí???

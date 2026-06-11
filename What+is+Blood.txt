@@ -1,0 +1,8 @@
+blood:
+red blood = old blood = lost oxy... = dark color
+white blood = new blood = many oxy = bright color
+
+ upgrade:
+ reseuse
+red blood = body blood
+white blood = other blood = maybe need less oxygen

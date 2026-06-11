@@ -1,0 +1,6 @@
+danh index -> cac bang dang sap xep theo ID 1,2,3
+neu khi chay 1 lenh query theo truong name -> thi no se tao mot ban copy moi -> sap xep theo thu tu dua vao truong name a, b,c 
+sau lan query tiep theo 
+===> ton memory phai danh index can than
+moi lan thuc thi query  trong database co the no se chon 1 truong a duoc danh index de tao mot ban copy nong luu tren local hoac may chu
+de tien cho viec query lan sau
