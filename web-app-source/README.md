@@ -38,4 +38,12 @@ ABC-ABC
 abcAbc
 AbcAbc
 
-
+/////
+thieu file data dto
+dong goi controller no chi goi cac ham
+getAllUser -> goi cac ham con
+/////////////////////
+set up project team
+1 project --- project main (is project push to git)
+          \--- project working (is project for demo
+           \--- Manager project forlder (is manager old version of project main/ project working)

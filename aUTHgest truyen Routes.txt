@@ -1,0 +1,13 @@
+aUTHgest truyen Routes vao 
+
+khi true tra ve routes
+
+<>
+	<authguest> return routes
+		<routes>
+		
+<authguest> return true //dung tu authguest de goi chidren hay dung tu routes de goi authguest
+	<routes> //
+	
+<Routes>
+	<AuthGuest>
