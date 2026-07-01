@@ -1,0 +1,80 @@
+//params: scope, init(create)
+//const 
+//th1:
+// a + b = c = 2
+// a = 1
+// b = 1
+// a+b = ?
+
+// c = 2
+//th2:
+//  a = 1
+//  a = 2
+//  b = 1
+//  a + b = ? 
+
+// memory vs ram can share when have electronic
+// memory storage data long time even lost electronic
+// ram storage data short time , data lost when lost electronic
+// CPU make decision data storage where
+// Cpu is middle commucate with user and memory and ram
+// comunication: draw more, sort
+// user <--data--> cpu  <--data--> memory
+//                      \<-data--> ram
+//first version not have alphabelt only number
+// i am using alphabel and number version
+//from basic caculator can caculator all numbers
+//first laptop need alphabet of laptop only 0 and 1
+//then when caculator = make short
+//if you dont know 1 + 1 = 2 you can understand a + a = 2 or understand a + a = b but you dont learn this alphabelt
+// allway make short caculator/ reduce step caculator
+  //user(write) ||  cpu  || memory(laptop) || ram //storange data
+//                                 0=0
+//                                 1=1
+//                                 2=2
+//                                 3=3
+//                                 a=a    
+//                                 b  
+
+//                               plus(+) =>allway have: () => 0 + 0 = 0 => 0 = 0
+//                                       =>allway have: () => 0 + 1 = 1 => 1 =1
+//                                       =>allway have: () => 0 + 2 = 2 //similar
+//                                       =>allway have: () => 0 + 3 = 3
+//                                       (Example: 1 + 2 = 0 + 1 + 0 + 2)//cant caculator
+//                                       =>allway have: () => 1 + 1 = 2 //similar
+//                                       =>allway have: () => 1 + 2 = 3
+//                                       (Example: 1+ 2 = 1 + 1 + 1 = 3)
+//                                       100
+//                                       =>option1.1: (a) => a + 1 = a up 1 (a dont know)
+//                                       =>option1.2: (a) => a + 2 = a up 2
+//                                       =>option2.1: (a, b) => a + b = a + b (EXample: 2 + 3 => 1 + 1 + 1 + 1 + 1 = 5)
+//                                       =>option2.2: (a, b) => a + b = a + b (EXample: 2 + 3 => 2 + 2 + 1 = 5)
+//                                 balance(=) => 1=1
+//                                            => 2 = 2 
+//                                            (Example: 2 = 2 = 1 + 1 = 2)
+//                                 square(x) =>allway have: () => 0 x 0 = 0
+//                                           =>allway have: () => 2 x 2 = 4 
+
+// th1:
+//       a = 1      choice ram                    a = 1
+//       b = 1      choice ram                    b = 1
+
+//       a+b         a+b
+//                   take a                       a = 1
+//                   take b                       b = 1
+//                   1+1
+
+        
+//        2
+//        c
+
+// //let
+// a=0
+// b=1
+// a=1
+// a+b=2
+// const
+// a=0
+// b=1
+// c=1
+// a=1 //error

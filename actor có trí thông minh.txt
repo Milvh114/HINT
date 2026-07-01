@@ -1,0 +1,19 @@
++)lịch sử phát triển phần mềm(những thứ được lưu trong phần cứng) cơ sở dữ liệu: 
+thời kỳ đầu: chỉ là phần mềm dùng để tính toán cơ bản lưu những phép tính toán học bằng nút bấm only number
+thời kỳ tiếp theo: phần mềm dùng để lưu trữ chữu cái use button only alphabel
+next era: mix software between number and alphabet
+next beyone: 
++) lịch sử phát triển phần mềm:
+công nghệ: toán, vật lý, cơ khí,  
+human: quản lý
+tài chính: 
+actor có trí thông minh
+oop cũng có trí thông minh
+
+hệ thống cũng có trí thông minh
+
+thầy có bao giờ nghĩ nếu 2 người có trí thông minh nói chuyện với nhau lúc đấy nso sẽ như thế nào???
+nó là hợp đồng 
+quy trình phát triển phần mềm:
+
+lên ý tưởng - viết ra ý tưởng của mình - viết phần mềm - kiểm tra - đúng - nó sẽ phát rtriển lên  
